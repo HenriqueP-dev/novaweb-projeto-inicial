@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas 10 e 13 - Sobre Mim</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Primeiro título</h1>
+        <h2>Segundo título</h2>
+        <nav aria-label="Navegação principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#experiencias">Experiências</a>
+            <a href="#contato">Contato</a>
+            <a href="https://br.pinterest.com/sandradelamego/lindas-imagens/" target="_blank" rel="noopener noreferrer">Pinterest</a>
+            <a href="https://www.google.com/imghp" target="_blank" rel="noopener noreferrer">Google Imagens</a>
+            <a href="https://www.pexels.com/pt-br/" target="_blank" rel="noopener noreferrer">Pexels</a>
+        </nav>
+    </header>
+
+    <main>
+        <p class="destaque">Este parágrafo tem a classe destaque.</p>
+        <p>Este parágrafo não tem classe.</p>
+        <p id="descricao">Meu texto.</p>
+
+        <div class="card">
+            <h1>Meu projeto</h1>
+            <p>Esta página foi criada para praticar HTML, CSS e o Box Model.</p>
+        </div>
+
+        <section id="sobre">
+            <h2>Quem sou eu</h2>
+            <img src="../aula 02/imagem.jpg" alt="Imagem de apresentação">
+            <p>Meu nome é Henrique e estou estudando Desenvolvimento de Sistemas. Tenho interesse em tecnologia e estou aprendendo a criar páginas usando HTML e CSS.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades e hobbies</h2>
+            <ul>
+                <li>Desenvolvimento de páginas em HTML</li>
+                <li>Estilização com CSS</li>
+                <li>Jogos e tecnologia</li>
+            </ul>
+        </section>
+
+        <section id="experiencias">
+            <h2>Experiências e projetos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Projeto</th>
+                        <th>Descrição</th>
+                        <th>Ano</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Página pessoal</td>
+                        <td>Criação de uma página usando HTML e CSS.</td>
+                        <td>2026</td>
+                    </tr>
+                    <tr>
+                        <td>GameZone</td>
+                        <td>Planejamento de um blog sobre jogos.</td>
+                        <td>2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Você também pode me encontrar no <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="wireframe">
+            <h2>Aula 09 - Wireframe e Planejamento de Leiautes</h2>
+            <p>Um wireframe é um rascunho da estrutura de uma página. Ele mostra onde cada parte vai ficar, como o cabeçalho, o menu, o conteúdo principal, a barra lateral e o rodapé.</p>
+            <p>Ele é importante porque ajuda a organizar a página antes de começar a programação.</p>
+            <p><strong>Atividade 1:</strong> pensamos nos elementos que a página precisa ter, na ordem de importância e em como eles serão organizados.</p>
+            <p>Em um blog, por exemplo, a página pode ter logo, menu, título, posts e rodapé.</p>
+            <p><strong>Atividade 2:</strong> desenhamos no papel a estrutura da página e marcamos cada bloco. Depois, relacionamos esse desenho com o HTML.</p>
+            <p>Por exemplo: cabeçalho = header, menu = nav, conteúdo principal = main, posts = article, barra lateral = aside e rodapé = footer.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Henrique. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
