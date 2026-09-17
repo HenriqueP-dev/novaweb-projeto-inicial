@@ -1,144 +1,108 @@
-﻿# GameZone
+# GameZone
 
-## Descrição do Projeto
+## Descrição do projeto
 
-O GameZone é um blog temático sobre jogos, desenvolvido como projeto do curso Técnico em Desenvolvimento de Sistemas.
+O GameZone é um blog educacional sobre jogos, desenvolvido individualmente por Henrique Pereira para a Situação de Aprendizagem 01 do curso Técnico em Desenvolvimento de Sistemas.
 
-O site tem como objetivo apresentar conteúdos relacionados ao universo dos videogames, como notícias, curiosidades, recomendações, lançamentos e informações sobre diferentes jogos e plataformas.
+O site apresenta conteúdos sobre tecnologia, esports, jogos independentes, acessibilidade e cuidados com equipamentos. A interface foi criada com HTML5, CSS3 e JavaScript, seguindo os wireframes e a identidade visual planejada para o projeto.
 
-O projeto contará com três páginas interligadas por um menu de navegação:
+## Como acessar
 
-- Página Home;
-- Página de Posts;
-- Página Sobre e Contato.
+1. Baixe ou clone este repositório.
+2. Abra o arquivo `Gamezone/index.html` em um navegador moderno.
+3. Use o menu principal para navegar entre Início, Posts e Sobre.
 
-## Integrantes da Squad
+O projeto é estático e não exige instalação de pacotes, servidor ou banco de dados.
 
-Projeto desenvolvido individualmente.
+## Páginas e funcionalidades
 
-- Henrique
+- **Início:** banner de apresentação e três posts em destaque.
+- **Posts:** seis conteúdos expansíveis e uma tabela comparativa de gêneros.
+- **Sobre e contato:** apresentação do projeto, objetivos, informações do autor e formulário demonstrativo.
+- **Menu responsivo:** navegação adaptada para computadores, tablets e celulares.
+- **Acessibilidade:** HTML semântico, textos alternativos, rótulos de formulário, foco visível, navegação por teclado e link para pular ao conteúdo.
 
-## Objetivos do Projeto
+> O formulário valida os campos e exibe uma confirmação local. Nenhum dado é enviado ou armazenado.
 
-- Criar um blog temático sobre jogos.
-- Desenvolver páginas organizadas e fáceis de navegar.
-- Aplicar a estrutura semântica do HTML.
-- Utilizar HTML, CSS e JavaScript.
-- Aplicar uma identidade visual adequada ao tema.
-- Organizar corretamente imagens, ícones e documentos.
-- Utilizar Git e GitHub para registrar o desenvolvimento.
+## Requisitos atendidos
 
-## Estrutura Analítica do Projeto — EAP
+| Requisito | Implementação |
+|---|---|
+| Desenvolvimento individual | Projeto identificado com um único autor |
+| Três páginas interligadas | `index.html`, `posts.html` e `sobre.html` |
+| Estrutura organizada | Pastas separadas para páginas, estilos, scripts, imagens, ícones e documentos |
+| HTML5 semântico | Uso de `header`, `nav`, `main`, `section`, `article`, `footer` e outros elementos adequados |
+| CSS externo | Todas as páginas utilizam `Gamezone/css/style.css` |
+| Navegação funcional | Menus principal e de rodapé disponíveis nas três páginas |
+| Imagens, listas e links | Aplicados de acordo com o conteúdo do blog |
+| Tabela | Comparação de gêneros na página de posts |
+| Formulário | Contato demonstrativo com validação HTML e retorno em JavaScript |
+| Código organizado | Arquivos indentados e nomes consistentes |
+| Controle de versão | Histórico mantido com Git e repositório hospedado no GitHub |
 
-| Módulo | Etapa | Atividade |
-|---|---|---|
-| 1 | Planejamento e documentação | Revisar os requisitos do projeto |
-| 1 | Planejamento e documentação | Organizar a estrutura das páginas |
-| 1 | Planejamento e documentação | Definir o conteúdo das páginas |
-| 1 | Planejamento e documentação | Criar os wireframes |
-| 1 | Planejamento e documentação | Atualizar o README.md |
-| 2 | Desenvolvimento Front-End | Criar a página `index.html` |
-| 2 | Desenvolvimento Front-End | Criar a página `posts.html` |
-| 2 | Desenvolvimento Front-End | Criar a página `sobre.html` |
-| 2 | Desenvolvimento Front-End | Criar e aplicar o arquivo `style.css` |
-| 2 | Desenvolvimento Front-End | Adicionar interações com `script.js` |
-| 3 | Testes e finalização | Testar a navegação entre as páginas |
-| 3 | Testes e finalização | Testar o layout e o conteúdo |
-| 3 | Testes e finalização | Corrigir os erros encontrados |
-| 3 | Testes e finalização | Registrar as alterações com Git |
-| 3 | Testes e finalização | Publicar o projeto no GitHub |
+## Decisões técnicas
 
-## Cronograma
-
-| Etapa | Atividade | Situação |
-|---|---|:---:|
-| Planejamento | Análise dos requisitos e organização do projeto | Concluído |
-| UX e prototipagem | Criação dos três wireframes de baixa fidelidade | Concluído |
-| Identidade visual | Definição da paleta de cores e tipografia | Concluído |
-| Organização dos assets | Seleção e organização de imagens e ícones | Concluído |
-| Documentação | Atualização do README, EAP e cronograma | Em andamento |
-| Desenvolvimento HTML | Construção das páginas Home, Posts e Sobre | A fazer |
-| Desenvolvimento CSS | Aplicação da identidade visual e do layout | A fazer |
-| JavaScript | Desenvolvimento das interações | A fazer |
-| Testes | Verificação da navegação, layout e conteúdo | A fazer |
-| Publicação | Commit e push final no GitHub | A fazer |
-
-## Identidade Visual
-
-A identidade visual do GameZone utiliza a regra 60-30-10.
-
-| Proporção | Cor | Código HEX | Aplicação |
-|---|---|---|---|
-| 60% | Grafite profundo | `#101318` | Fundo principal e áreas maiores |
-| 30% | Azul-ardósia escuro | `#202A36` | Cabeçalho, menus, cards e seções |
-| 10% | Dourado/âmbar | `#D6A84B` | Botões, links ativos e destaques |
-
-### Tipografia
-
-- **Títulos:** Archivo
-- **Corpo de texto:** Source Sans 3
-
-A fonte Archivo foi escolhida para criar títulos fortes e modernos. A Source Sans 3 será utilizada nos textos por apresentar boa legibilidade em interfaces digitais.
+- A estrutura das páginas segue os wireframes criados antes da implementação.
+- A paleta utiliza grafite profundo (`#101318`), azul-ardósia (`#202A36`) e dourado (`#E0B95A`).
+- Os títulos usam Archivo e os demais textos usam Source Sans 3, com alternativas do sistema.
+- O layout usa Grid e Flexbox para adaptar cards e seções a diferentes larguras de tela.
+- O JavaScript foi limitado ao menu móvel e à confirmação do formulário, mantendo o projeto compatível com o conteúdo estudado.
+- Os posts têm conteúdo autoral e atemporal, sem depender de notícias externas.
 
 ## Wireframes
 
-### Página Home
+### Página inicial
 
-![Wireframe da página Home](Gamezone/docs/Home%20-%20Game%20Zone.png)
+![Wireframe da página inicial](Gamezone/docs/Home%20-%20Game%20Zone.png)
 
-### Página de Posts
+### Página de posts
 
-![Wireframe da página de Posts](Gamezone/docs/pagina%20posts%20-%20Game%20Zone.png)
+![Wireframe da página de posts](Gamezone/docs/pagina%20posts%20-%20Game%20Zone.png)
 
-### Página Sobre e Contato
+### Página sobre e contato
 
-![Wireframe da página Sobre e Contato](Gamezone/docs/wireframe-sobre-contato.png)
+![Wireframe da página sobre e contato](Gamezone/docs/wireframe-sobre-contato.png)
 
-## Tecnologias e Softwares Utilizados
-
-- HTML
-- CSS
-- JavaScript
-- Visual Studio Code
-- Git
-- GitHub
-- Miro
-- Navegador web
-
-## Estrutura de Arquivos
+## Estrutura de arquivos
 
 ```text
 novaweb-projeto-inicial/
 ├── Gamezone/
 │   ├── assets/
 │   │   ├── icons/
-│   │   │   ├── gamepad.png
-│   │   │   ├── headphones.png
-│   │   │   ├── home.png
-│   │   │   ├── menu.png
-│   │   │   ├── posts.png
-│   │   │   └── sobre.png
 │   │   └── images/
-│   │       ├── logo.png
-│   │       └── imagens do projeto
 │   ├── css/
 │   │   └── style.css
 │   ├── docs/
-│   │   ├── Home - Game Zone.png
-│   │   ├── pagina posts - Game Zone.png
-│   │   └── wireframe-sobre-contato.png
+│   │   └── wireframes do projeto
 │   ├── js/
 │   │   └── script.js
 │   ├── pages/
 │   │   ├── posts.html
 │   │   └── sobre.html
+│   ├── CREDITOS_ASSETS.md
 │   └── index.html
+├── aula 02/
+├── aula 03/
+├── aula 10 e 13/
+├── exercicio 5/
 ├── NOTAS_ESTUDO.md
 └── README.md
 ```
 
-## Status do Projeto
+## Tecnologias e ferramentas
 
-O projeto encontra-se na fase de planejamento e preparação da estrutura. Os wireframes, a identidade visual e a organização dos assets foram concluídos.
+- HTML5
+- CSS3
+- JavaScript
+- Visual Studio Code
+- Git e GitHub
+- Miro
 
-A próxima etapa será o desenvolvimento das páginas utilizando HTML, CSS e JavaScript.
+## Status
+
+Projeto implementado e pronto para revisão final. As três páginas estão interligadas, estilizadas e adaptadas para diferentes tamanhos de tela.
+
+## Autor
+
+Henrique Pereira — turma TDE-1BAA-26.
