@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça o projeto GameZone e envie uma mensagem pelo formulário de contato demonstrativo.">
+    <title>GameZone | Sobre e contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a class="brand" href="../index.html" aria-label="GameZone — página inicial">
+                <img src="../assets/images/logo.png" alt="" width="1254" height="1254">
+                <span>GameZone</span>
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="main-navigation" aria-expanded="false">
+                <img src="../assets/icons/menu.png" alt="" width="640" height="640">
+                <span>Menu</span>
+            </button>
+
+            <nav class="site-navigation" id="main-navigation" aria-label="Navegação principal">
+                <ul>
+                    <li>
+                        <a href="../index.html">
+                            <img src="../assets/icons/home.png" alt="" width="640" height="640">
+                            Início
+                        </a>
+                    </li>
+                    <li>
+                        <a href="posts.html">
+                            <img src="../assets/icons/posts.png" alt="" width="640" height="640">
+                            Posts
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="sobre.html" aria-current="page">
+                            <img src="../assets/icons/sobre.png" alt="" width="640" height="640">
+                            Sobre
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <header class="page-header">
+            <div class="container narrow-content">
+                <p class="eyebrow">Nosso projeto</p>
+                <h1>Sobre o GameZone</h1>
+                <p>Um blog educacional criado para compartilhar informação e praticar desenvolvimento web.</p>
+            </div>
+        </header>
+
+        <section class="section" aria-label="Sobre e contato">
+            <div class="container about-grid">
+                <div class="about-content">
+                    <article class="info-card">
+                        <img class="info-icon" src="../assets/icons/gamepad.png" alt="" width="640" height="640">
+                        <div>
+                            <h2>O que é o GameZone?</h2>
+                            <p>O GameZone é um blog sobre videogames, tecnologia e cultura gamer. O projeto apresenta conteúdos curtos e claros para leitores com diferentes níveis de experiência.</p>
+                        </div>
+                    </article>
+
+                    <article class="info-card">
+                        <img class="info-icon" src="../assets/icons/headphones.png" alt="" width="640" height="640">
+                        <div>
+                            <h2>Objetivos do site</h2>
+                            <ul class="feature-list">
+                                <li>Compartilhar dicas e curiosidades.</li>
+                                <li>Explicar assuntos de forma acessível.</li>
+                                <li>Valorizar uma comunidade gamer respeitosa.</li>
+                                <li>Aplicar boas práticas de HTML, CSS e JavaScript.</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="info-card author-card">
+                        <div>
+                            <p class="eyebrow">Autor</p>
+                            <h2>Henrique Pereira</h2>
+                            <p>Estudante do curso Técnico em Desenvolvimento de Sistemas. O GameZone foi desenvolvido individualmente como parte da Situação de Aprendizagem 01 da unidade curricular Linguagem de Marcação.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <section class="contact-card" id="contato" aria-labelledby="contact-title">
+                    <p class="eyebrow">Fale com o projeto</p>
+                    <h2 id="contact-title">Contato</h2>
+                    <p>Preencha os campos para testar o formulário.</p>
+
+                    <form id="contact-form" action="#contato" method="post">
+                        <div class="form-field">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" autocomplete="name" minlength="2" maxlength="80" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" autocomplete="email" maxlength="120" required>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="6" minlength="10" maxlength="500" required></textarea>
+                        </div>
+
+                        <button class="button" type="submit">Enviar mensagem</button>
+                        <p class="form-note">Formulário demonstrativo: nenhuma informação é enviada ou armazenada.</p>
+                        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                    </form>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div>
+                <p class="footer-brand">GameZone</p>
+                <p>Conteúdo sobre jogos feito por quem gosta de descobrir.</p>
+            </div>
+            <nav aria-label="Navegação do rodapé">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="posts.html">Posts</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p class="copyright">&copy; 2026 GameZone. Projeto educacional.</p>
+    </footer>
+</body>
+</html>
