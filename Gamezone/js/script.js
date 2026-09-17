@@ -37,6 +37,30 @@ if (menuButton && mainNavigation) {
 const contactForm = document.getElementById("contact-form");
 const formStatus = document.getElementById("form-status");
 
+const filterButtons = document.querySelectorAll(".filter-chip");
+const postCards = document.querySelectorAll("#post-grid .post-card");
+
+if (filterButtons.length && postCards.length) {
+    filterButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+            const selectedCategory = button.dataset.filter;
+
+            filterButtons.forEach((item) => {
+                const isActive = item === button;
+                item.classList.toggle("active", isActive);
+                item.setAttribute("aria-pressed", String(isActive));
+            });
+
+            postCards.forEach((card) => {
+                const shouldShow = selectedCategory === "todos"
+                    || card.dataset.category === selectedCategory;
+
+                card.classList.toggle("is-hidden", !shouldShow);
+            });
+        });
+    });
+}
+
 if (contactForm && formStatus) {
     contactForm.addEventListener("submit", (event) => {
         event.preventDefault();
