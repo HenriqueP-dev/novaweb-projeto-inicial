@@ -16,8 +16,8 @@ O projeto é estático e não exige instalação de pacotes, servidor ou banco d
 
 ## Páginas e funcionalidades
 
-- **Início:** banner de apresentação e três posts em destaque.
-- **Posts:** seis conteúdos expansíveis e uma tabela comparativa de gêneros.
+- **Início:** apresentação editorial, um post em destaque e uma lista compacta de conteúdos recentes.
+- **Posts:** seis artigos expansíveis com subtítulos, listas, fontes consultadas, filtros por categoria e uma tabela comparativa de gêneros.
 - **Sobre e contato:** apresentação do projeto, objetivos, informações do autor e formulário demonstrativo.
 - **Menu responsivo:** navegação adaptada para computadores, tablets e celulares.
 - **Acessibilidade:** HTML semântico, textos alternativos, rótulos de formulário, foco visível, navegação por teclado e link para pular ao conteúdo.
@@ -42,12 +42,12 @@ O projeto é estático e não exige instalação de pacotes, servidor ou banco d
 
 ## Decisões técnicas
 
-- A estrutura das páginas segue os wireframes criados antes da implementação.
+- A estrutura das páginas parte dos wireframes e adota uma apresentação editorial minimalista, com hierarquia entre destaque, lista e cards.
 - A paleta utiliza grafite profundo (`#101318`), azul-ardósia (`#202A36`) e dourado (`#E0B95A`).
 - Os títulos usam Archivo e os demais textos usam Source Sans 3, com alternativas do sistema.
 - O layout usa Grid e Flexbox para adaptar cards e seções a diferentes larguras de tela.
-- O JavaScript foi limitado ao menu móvel e à confirmação do formulário, mantendo o projeto compatível com o conteúdo estudado.
-- Os posts têm conteúdo autoral e atemporal, sem depender de notícias externas.
+- O JavaScript controla o menu móvel, os filtros de categoria e a confirmação do formulário, mantendo o projeto compatível com o conteúdo estudado.
+- Os posts têm conteúdo autoral e atemporal, elaborado a partir de fontes oficiais e editoriais identificadas ao final de cada artigo.
 
 ## Wireframes
 
@@ -101,7 +101,7 @@ novaweb-projeto-inicial/
 
 ## Status
 
-Projeto implementado e pronto para revisão final. As três páginas estão interligadas, estilizadas e adaptadas para diferentes tamanhos de tela.
+Projeto implementado e pronto para revisão final. As três páginas estão interligadas, estilizadas, adaptadas para diferentes tamanhos de tela e preenchidas com conteúdo pesquisado.
 
 ## Autor
 
