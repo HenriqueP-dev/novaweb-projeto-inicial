@@ -28,12 +28,13 @@
             <p>Um wireframe é um rascunho da estrutura de uma página web. Ele mostra onde cada elemento vai ficar, como o cabeçalho, o menu, o conteúdo principal, a barra lateral e o rodapé.</p>
             <p>Ele é importante porque ajuda a organizar a página, pensar na hierarquia das informações e facilitar a comunicação antes da programação.</p>
 
+            <h3>Exemplo de wireframe</h3>
             <pre>
 +------------------------------------------------------+
 | LOGO        HOME    POSTS    SOBRE    CONTATO       |
 +------------------------------------------------------+
 |                                                      |
-|                  TÍTULO PRINCIPAL                    |
+|                 TÍTULO PRINCIPAL                     |
 |         Texto de apresentação do blog               |
 |                                                      |
 +------------------------------------------------------+
@@ -46,7 +47,7 @@
 +------------------------------------------------------+
             </pre>
 
-            <p>Depois de planejar o wireframe, transformamos essa estrutura em HTML. Cada bloco do layout vira uma tag:</p>
+            <p>A relação com o HTML é direta:</p>
             <ul>
                 <li>cabeçalho = header</li>
                 <li>menu = nav</li>
@@ -55,40 +56,6 @@
                 <li>barra lateral = aside</li>
                 <li>rodapé = footer</li>
             </ul>
-
-            <pre>
-&lt;header&gt;
-    &lt;h1&gt;Logo do Blog&lt;/h1&gt;
-    &lt;nav&gt;
-        &lt;a href="#"&gt;Home&lt;/a&gt;
-        &lt;a href="#"&gt;Posts&lt;/a&gt;
-        &lt;a href="#"&gt;Sobre&lt;/a&gt;
-        &lt;a href="#"&gt;Contato&lt;/a&gt;
-    &lt;/nav&gt;
-&lt;/header&gt;
-
-&lt;main&gt;
-    &lt;section&gt;
-        &lt;h2&gt;Título principal&lt;/h2&gt;
-        &lt;p&gt;Texto inicial da página.&lt;/p&gt;
-    &lt;/section&gt;
-
-    &lt;section&gt;
-        &lt;article&gt;
-            &lt;h3&gt;Post 1&lt;/h3&gt;
-            &lt;p&gt;Resumo do post.&lt;/p&gt;
-        &lt;/article&gt;
-    &lt;/section&gt;
-&lt;/main&gt;
-
-&lt;aside&gt;
-    &lt;h3&gt;Mais lidos&lt;/h3&gt;
-&lt;/aside&gt;
-
-&lt;footer&gt;
-    &lt;p&gt;Copyright&lt;/p&gt;
-&lt;/footer&gt;
-            </pre>
         </section>
     </main>
 </body>
