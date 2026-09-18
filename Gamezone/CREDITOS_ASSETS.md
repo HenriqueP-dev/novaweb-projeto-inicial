@@ -2,7 +2,7 @@
 
 ## Imagens
 
-- `hero-gaming.jpg` — Fonte: Pexels — [Link registrado no projeto](https://images.openai.com/static-rsc-4/2IZe-iWTrW0qJHqvKUVMqrQtm7bwSuUm5OJl88GUaYrxylP7x2uLVs9gBAHd1EFY-abE9jBJgFhRDxWB_u0FYx5uP8fk2dFQDFGsgwXLOC4gtl5Y7PejC8Pr73qx0VVTaABhkLDGCmKyAztJa8u0-IKKkP-Ztu-deYRqNOWaH8S9r9g5iDUxq3UGXMe7NoYA?purpose=fullsize)
+- `hero-gaming.webp` — Fonte: Pexels — [Link registrado no projeto](https://images.openai.com/static-rsc-4/2IZe-iWTrW0qJHqvKUVMqrQtm7bwSuUm5OJl88GUaYrxylP7x2uLVs9gBAHd1EFY-abE9jBJgFhRDxWB_u0FYx5uP8fk2dFQDFGsgwXLOC4gtl5Y7PejC8Pr73qx0VVTaABhkLDGCmKyAztJa8u0-IKKkP-Ztu-deYRqNOWaH8S9r9g5iDUxq3UGXMe7NoYA?purpose=fullsize)
 
 - `post-tecnologia.jpg` — Fonte: Pexels — [Link registrado no projeto](https://images.openai.com/static-rsc-4/zD8Oid-37KsNIh9nHSGEpZ_RWDC9MXWH0Z5MY0MXkugDY8b0X3JDbcTAftv2TLC25CyT6bdz8PrIc4P5SeHeSTXm83-RTVVEdQ-xseCOKFpUp_hoeyMa_vIDANn8cm2VRaBtWrz0NggkFz5ub8xlvrl0iNQhmQhWiVYYXSxpmeXDnLxV2sAT2PBJ4zxyZ2dH?purpose=fullsize)
 
