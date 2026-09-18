@@ -522,32 +522,6 @@ main {
     transform: scale(1.025);
 }
 
-.post-placeholder {
-    display: grid;
-    place-items: center;
-    aspect-ratio: 16 / 9;
-}
-
-.post-placeholder > img {
-    width: 4.5rem;
-    height: 4.5rem;
-    opacity: 0.78;
-    filter: brightness(0) invert(1);
-    object-fit: contain;
-}
-
-.placeholder-indies {
-    background: linear-gradient(135deg, #253f62, #604282);
-}
-
-.placeholder-accessibility {
-    background: linear-gradient(135deg, #274d48, #74632f);
-}
-
-.placeholder-recommendations {
-    background: linear-gradient(135deg, #4e3142, #293e63);
-}
-
 .post-card-content {
     display: flex;
     flex: 1;

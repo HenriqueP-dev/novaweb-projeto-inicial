@@ -8,6 +8,16 @@
 
 - `post-esports.jpg` — Fonte: Pexels — [Link registrado no projeto](https://images.openai.com/static-rsc-4/7heEOnXW8urjQeXvI0EMRrhSexC90Rhq-4_NFceJVtHsk7Y9oIW_HSUceTblHLsrQzKfbnGjZa0nWbPkXwbaVWRW0VE6j7bHUlPtNjywz8FVPg234mDjfN-nmS-w8xfw1C-UQkJCj99vy_b4z2t_SSTZFhM67jWNcmopmbpVVW8WlQ7ln76rbdJt-k3ejmA9?purpose=fullsize)
 
+- `post-indies.webp` — Fonte: Pexels — imagem fornecida pelo autor e otimizada para o projeto.
+
+- `post-acessibilidade.webp` — Fonte: Pexels — imagem fornecida pelo autor e otimizada para o projeto.
+
+- `post-recomendacoes.webp` — Fonte: Pexels — imagem fornecida pelo autor e otimizada para o projeto.
+
+- `post-equipamentos.webp` — Fonte: Pexels — imagem fornecida pelo autor e otimizada para o projeto.
+
+As imagens em WebP foram recortadas para a proporção 16:9 e comprimidas para reduzir o carregamento das páginas.
+
 ## Ícones
 
 Os ícones utilizados no projeto foram obtidos no Font Awesome Free.
