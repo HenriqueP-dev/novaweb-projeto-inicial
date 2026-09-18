@@ -1,0 +1,161 @@
+/* Remove as margens e os espaços padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo geral da página */
+body {
+    color: #f2f2f2;
+    background-color: #0b0f14;
+    font-size: 16px;
+}
+
+/* Cabeçalho */
+header {
+    padding: 30px;
+    background-color: #111823;
+    text-align: center;
+}
+
+header h1 {
+    color: #62df73;
+    font-size: 40px;
+}
+
+.subtitulo {
+    margin-top: 10px;
+    color: #c4ccd4;
+}
+
+/* Menu */
+nav {
+    padding: 15px;
+    background-color: #182331;
+    text-align: center;
+}
+
+nav a {
+    margin: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pagina-atual {
+    padding: 5px;
+    color: #0b0f14;
+    background-color: #62df73;
+    border: 1px solid #62df73;
+}
+
+/* Conteúdo principal */
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #111823;
+    border: 1px solid #2a3a4a;
+    box-shadow: 0 0 8px #000000;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #62df73;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+/* Cards dos posts */
+article {
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #182331;
+    border: 1px solid #34495e;
+}
+
+article img {
+    width: 100%;
+}
+
+article h2 {
+    margin: 15px 0;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+article a {
+    color: #62df73;
+    font-weight: bold;
+}
+
+/* Lista de categorias */
+.categoria-lista {
+    margin-left: 25px;
+}
+
+ul > li {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Formulário */
+#contato {
+    background-color: #15202b;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #0b0f14;
+    border: 1px solid #52677a;
+}
+
+textarea {
+    width: 95%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #ffffff;
+    background-color: #0b0f14;
+    border: 1px solid #52677a;
+}
+
+button {
+    padding: 10px 20px;
+    color: #0b0f14;
+    background-color: #62df73;
+    border: 1px solid #62df73;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    padding: 20px;
+    color: #c4ccd4;
+    background-color: #111823;
+    text-align: center;
+}

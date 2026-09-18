@@ -3,288 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Posts do GameZone sobre tecnologia, esports, acessibilidade e cultura gamer.">
-    <title>GameZone | Posts</title>
-    <link rel="icon" href="../assets/images/logo.webp" type="image/webp">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/script.js" defer></script>
+    <title>Game Zone - Posts</title>
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
-    <header class="site-header">
-        <div class="container header-inner">
-            <a class="brand" href="../index.html" aria-label="GameZone — página inicial">
-                <img src="../assets/images/logo.webp" alt="" width="256" height="256">
-                <span>GameZone<span class="brand-dot">.</span></span>
-            </a>
-
-            <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="main-navigation" aria-expanded="false">
-                <img src="../assets/icons/menu.png" alt="" width="640" height="640">
-                <span>Menu</span>
-            </button>
-
-            <nav class="site-navigation" id="main-navigation" aria-label="Navegação principal">
-                <ul>
-                    <li><a class="nav-link" href="../index.html">Início</a></li>
-                    <li><a class="nav-link active" href="posts.html" aria-current="page">Posts</a></li>
-                    <li><a class="nav-link" href="sobre.html">Sobre</a></li>
-                </ul>
-            </nav>
-        </div>
+    <!-- Cabeçalho da página de posts -->
+    <header>
+        <h1>Posts do Game Zone</h1>
+        <p class="subtitulo">Exemplos de notícias sobre games e tecnologia.</p>
     </header>
 
-    <main id="conteudo">
-        <header class="container page-heading">
-            <p class="eyebrow">Conteúdo GameZone</p>
-            <h1>Posts</h1>
-            <p>Jogos, tecnologia e comunidade organizados por assunto, do conteúdo mais recente ao mais antigo.</p>
-        </header>
+    <!-- Menu principal -->
+    <nav>
+        <a href="../index.html">Início</a>
+        <a class="pagina-atual" href="posts.html">Posts</a>
+        <a href="contato.html">Contato</a>
+    </nav>
 
-        <section class="container section posts-section" aria-labelledby="post-list-title">
-            <h2 class="visually-hidden" id="post-list-title">Lista de posts</h2>
+    <main>
+        <!-- Lista de posts -->
+        <section>
+            <h2>Posts recentes</h2>
+            <p>Todos os textos desta página são exemplos para a atividade.</p>
 
-            <div class="filter-chips" role="group" aria-label="Filtrar posts por categoria">
-                <button class="filter-chip active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
-                <button class="filter-chip" type="button" data-filter="tecnologia" aria-pressed="false">Tecnologia</button>
-                <button class="filter-chip" type="button" data-filter="esports" aria-pressed="false">Esports</button>
-                <button class="filter-chip" type="button" data-filter="cultura" aria-pressed="false">Cultura</button>
-                <button class="filter-chip" type="button" data-filter="inclusao" aria-pressed="false">Inclusão</button>
-            </div>
+            <article id="tecnologia">
+                <img src="../assets/images/post-tecnologia.jpg" alt="Computador usado para jogos">
+                <h2>Novas tecnologias deixam os jogos mais realistas</h2>
+                <p>Os jogos estão recebendo gráficos melhores, personagens detalhados e mundos maiores para explorar.</p>
+                <p>Essas mudanças ajudam a criar experiências mais interessantes para os jogadores.</p>
+            </article>
 
-            <div class="post-grid" id="post-grid">
-                <article class="post-card post-card-featured" id="setup-gamer" data-category="tecnologia">
-                    <div class="post-media">
-                        <img src="../assets/images/post-tecnologia.jpg" alt="Pessoa utilizando teclado em uma estação com dois monitores" width="1920" height="1282" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <p class="meta"><span class="category">Tecnologia</span><span aria-hidden="true">•</span><time datetime="2026-09-15">15 set 2026</time></p>
-                        <h2>Como organizar um espaço confortável para jogar</h2>
-                        <p>Conforto, posição da tela e organização importam mais do que uma mesa cheia de acessórios.</p>
-                        <details>
-                            <summary>Ler o post</summary>
-                            <div class="article-content">
-                                <h3>Comece pelo que precisa funcionar</h3>
-                                <p>Uma boa estação não precisa ser cara nem ter muitos acessórios. A mesa deve oferecer espaço suficiente para movimentar o mouse, manter os objetos mais usados ao alcance e sustentar os equipamentos com segurança. Organizar os cabos também facilita a limpeza e diminui o risco de tropeços.</p>
+            <article id="independentes">
+                <img src="../assets/images/post-indies.jpg" alt="Personagem de um jogo independente">
+                <h2>Jogos independentes ganham espaço</h2>
+                <p>Pequenos estúdios estão criando jogos diferentes e conquistando novos públicos.</p>
+                <p>Muitos desses projetos valorizam histórias criativas e ideias simples.</p>
+            </article>
 
-                                <h3>Ajuste a posição de cada elemento</h3>
-                                <p>Como ponto de partida, coloque o monitor principal diretamente à sua frente, aproximadamente à distância de um braço. A parte superior da tela pode ficar próxima da linha dos olhos, evitando que o pescoço permaneça inclinado durante toda a partida.</p>
-                                <ul>
-                                    <li>Regule a cadeira para apoiar os pés e manter os braços relaxados.</li>
-                                    <li>Deixe teclado, mouse ou controle em uma posição confortável.</li>
-                                    <li>Evite reflexos na tela e use uma iluminação ambiente suave.</li>
-                                    <li>Mude de posição e faça pequenas pausas em sessões mais longas.</li>
-                                </ul>
-
-                                <p>O melhor setup é aquele que combina conforto e funcionalidade com o espaço disponível. A aparência pode completar o ambiente, mas não deve impedir ajustes importantes.</p>
-                                <p class="post-source">Fonte consultada: <a href="https://www.intel.com/content/www/us/en/gaming/resources/gaming-desk-setup.html">guia de organização de setup da Intel</a>.</p>
-                            </div>
-                        </details>
-                    </div>
-                </article>
-
-                <article class="post-card" id="esports" data-category="esports">
-                    <div class="post-media">
-                        <img src="../assets/images/post-esports.jpg" alt="Jogadores participando de uma competição de esports" width="1225" height="689" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <p class="meta"><span class="category">Esports</span><span aria-hidden="true">•</span><time datetime="2026-09-12">12 set 2026</time></p>
-                        <h2>Entenda como funcionam as competições digitais</h2>
-                        <p>Organização, regras e trabalho em equipe fazem parte de cada campeonato.</p>
-                        <details>
-                            <summary>Ler o post</summary>
-                            <div class="article-content">
-                                <h3>As partidas podem ter séries diferentes</h3>
-                                <p>Uma disputa em melhor de uma partida é chamada de BO1. Em um BO3, vence quem conquistar duas partidas; em um BO5, são necessárias três vitórias. Séries maiores reduzem o peso de um resultado isolado, mas exigem mais tempo e preparo das equipes.</p>
-
-                                <h3>Da fase de grupos até a final</h3>
-                                <p>Em um formato de todos contra todos, cada participante enfrenta os demais e soma pontos. Já o sistema suíço aproxima equipes com campanhas semelhantes sem obrigar que todas se enfrentem. Depois dessa etapa, os classificados podem seguir para uma chave eliminatória.</p>
-                                <ul>
-                                    <li><strong>Eliminação simples:</strong> quem perde deixa a competição.</li>
-                                    <li><strong>Eliminação dupla:</strong> uma primeira derrota leva à chave inferior e a segunda elimina.</li>
-                                    <li><strong>Torneio aberto:</strong> qualquer participante que cumpra as regras pode se inscrever.</li>
-                                    <li><strong>Evento por convite:</strong> a organização seleciona as equipes participantes.</li>
-                                </ul>
-
-                                <p>Além dos jogadores, um evento pode envolver técnicos, árbitros, narradores, analistas e profissionais de transmissão. Essa estrutura ajuda a transformar as partidas em uma competição compreensível para quem está assistindo.</p>
-                                <p class="post-source">Fonte consultada: <a href="https://britishesports.org/the-hub/advice/tournament-formats-in-esports/">guia de formatos da British Esports Federation</a>.</p>
-                            </div>
-                        </details>
-                    </div>
-                </article>
-
-                <article class="post-card" id="jogos-independentes" data-category="cultura">
-                    <div class="post-media">
-                        <img src="../assets/images/post-indies.webp" alt="Pessoa trabalhando em um projeto de programação em um notebook" width="1280" height="720" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <p class="meta"><span class="category">Cultura</span><span aria-hidden="true">•</span><time datetime="2026-09-09">09 set 2026</time></p>
-                        <h2>Jogos independentes e novas ideias</h2>
-                        <p>Projetos independentes podem explorar mecânicas, visuais e histórias fora dos padrões mais conhecidos.</p>
-                        <details>
-                            <summary>Ler o post</summary>
-                            <div class="article-content">
-                                <h3>Independente não significa apenas pequeno</h3>
-                                <p>O termo costuma estar relacionado à autonomia de criação e produção. Muitos projetos realmente nascem em equipes pequenas ou até com uma única pessoa, mas o tamanho não é a única característica que define essa categoria.</p>
-
-                                <p>Com menos camadas de decisão, desenvolvedores podem testar ideias incomuns e construir o jogo ao redor de uma mecânica central. Um protótipo simples ajuda a descobrir rapidamente se essa ideia é divertida antes que tempo e recursos sejam investidos em gráficos, fases e narrativa.</p>
-
-                                <h3>Criatividade com limites claros</h3>
-                                <ul>
-                                    <li>Definir uma experiência principal que funcione bem.</li>
-                                    <li>Experimentar e observar o que melhora a diversão.</li>
-                                    <li>Buscar inspiração em lugares, filmes, músicas e situações cotidianas.</li>
-                                    <li>Controlar o tamanho do projeto para que ele possa ser concluído.</li>
-                                </ul>
-
-                                <p>Essa liberdade ajuda a explicar por que o cenário independente apresenta tantos estilos visuais e formas diferentes de jogar. Para o público, explorar esse catálogo é uma oportunidade de encontrar experiências que talvez não apareçam entre os grandes lançamentos.</p>
-                                <p class="post-source">Fonte consultada: <a href="https://www.gamedeveloper.com/design/5-tips-for-no-bull-indie-game-design">artigo sobre design independente do Game Developer</a>.</p>
-                            </div>
-                        </details>
-                    </div>
-                </article>
-
-                <article class="post-card" id="acessibilidade" data-category="inclusao">
-                    <div class="post-media">
-                        <img src="../assets/images/post-acessibilidade.webp" alt="Pessoa utilizando controles adaptados com o apoio de um profissional" width="984" height="554" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <p class="meta"><span class="category">Inclusão</span><span aria-hidden="true">•</span><time datetime="2026-09-05">05 set 2026</time></p>
-                        <h2>Acessibilidade também faz parte dos jogos</h2>
-                        <p>Boas opções de áudio, imagem e controle permitem que mais pessoas participem da experiência.</p>
-                        <details>
-                            <summary>Ler o post</summary>
-                            <div class="article-content">
-                                <h3>Mais maneiras de jogar</h3>
-                                <p>Acessibilidade não é apenas diminuir a dificuldade. Ela oferece alternativas para que pessoas com diferentes necessidades visuais, auditivas, motoras ou cognitivas consigam compreender e controlar o jogo.</p>
-
-                                <p>Um recurso isolado nem sempre resolve tudo. Legendas, por exemplo, são mais úteis quando permitem ajustar tamanho, cor, fundo e identificação de quem está falando. Da mesma forma, remapear comandos dá ao jogador liberdade para escolher uma combinação adequada ao seu controle e à sua forma de jogar.</p>
-
-                                <h3>Recursos que fazem diferença</h3>
-                                <ul>
-                                    <li>Narração de menus e descrições sonoras.</li>
-                                    <li>Legendas personalizáveis e indicações visuais para sons.</li>
-                                    <li>Filtros de cor, alto contraste e tamanho de interface ajustável.</li>
-                                    <li>Remapeamento de botões e opção de trocar comandos de segurar por pressionar.</li>
-                                    <li>Ajustes de sensibilidade e suporte a diferentes dispositivos de entrada.</li>
-                                </ul>
-
-                                <p>Informar esses recursos na loja antes da compra também é parte da acessibilidade. Assim, cada pessoa consegue avaliar se o jogo atende às suas necessidades sem depender de tentativa e erro.</p>
-                                <p class="post-source">Fonte consultada: <a href="https://news.xbox.com/en-us/2021/10/01/xbox-announces-accessibility-updates/">visão geral de recursos de acessibilidade do Xbox Wire</a>.</p>
-                            </div>
-                        </details>
-                    </div>
-                </article>
-
-                <article class="post-card" id="equipamentos" data-category="tecnologia">
-                    <div class="post-media">
-                        <img src="../assets/images/post-equipamentos.webp" alt="Teclado mecânico parcialmente desmontado para limpeza" width="592" height="333" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <p class="meta"><span class="category">Tecnologia</span><span aria-hidden="true">•</span><time datetime="2026-09-02">02 set 2026</time></p>
-                        <h2>Cuidados simples com os equipamentos</h2>
-                        <p>Limpeza e organização ajudam a conservar controles, teclado e computador.</p>
-                        <details>
-                            <summary>Ler o post</summary>
-                            <div class="article-content">
-                                <h3>Segurança antes da limpeza</h3>
-                                <p>Desligue e desconecte o equipamento antes de começar. Use um pano macio e sem fiapos e nunca aplique o produto de limpeza diretamente no aparelho. Como os materiais variam, vale conferir o manual do fabricante antes de retirar teclas, abrir o gabinete ou usar qualquer solução.</p>
-
-                                <h3>Cada equipamento pede um cuidado</h3>
-                                <ul>
-                                    <li><strong>Teclado e mouse:</strong> remova a poeira solta com cuidado e limpe a superfície sem encharcar.</li>
-                                    <li><strong>Controle:</strong> use um pano seco ou levemente umedecido e evite a entrada de líquido nos botões e conexões.</li>
-                                    <li><strong>Headset:</strong> quando as almofadas forem removíveis, limpe-as separadamente e espere que sequem por completo.</li>
-                                    <li><strong>Computador:</strong> mantenha entradas de ar e filtros livres de poeira para não bloquear o fluxo das ventoinhas.</li>
-                                </ul>
-
-                                <p>A frequência depende do ambiente: locais com poeira, animais ou pouca circulação de ar podem exigir atenção maior. Uma verificação rápida e regular evita que a sujeira se acumule e torna a manutenção mais simples.</p>
-                                <p class="post-source">Fontes consultadas: <a href="https://www.intel.com/content/www/us/en/gaming/resources/pc-cooling-the-importance-of-keeping-your-pc-cool.html">Intel</a>, <a href="https://dl.razerzone.com/videos/transcripts/Transcript_How%20to%20clean%20your%20Razer%20Peripherals_EN.pdf">Razer</a> e <a href="https://www.corsair.com/us/en/explorer/gamer/headsets/how-to-clean-headset-earpads/">Corsair</a>.</p>
-                            </div>
-                        </details>
-                    </div>
-                </article>
-
-                <article class="post-card" id="escolher-jogo" data-category="cultura">
-                    <div class="post-media">
-                        <img src="../assets/images/post-recomendacoes.webp" alt="Pessoa segurando um controle enquanto joga" width="1125" height="633" loading="lazy">
-                    </div>
-                    <div class="post-card-content">
-                        <p class="meta"><span class="category">Cultura</span><span aria-hidden="true">•</span><time datetime="2026-08-28">28 ago 2026</time></p>
-                        <h2>Como escolher seu próximo jogo</h2>
-                        <p>Tempo disponível, estilo preferido e companhia ajudam a fazer uma boa escolha.</p>
-                        <details>
-                            <summary>Ler o post</summary>
-                            <div class="article-content">
-                                <h3>Comece pela experiência que você procura</h3>
-                                <p>Em vez de escolher apenas pelo jogo mais comentado, pense no momento em que ele será jogado. Uma aventura longa pode ser ótima para quem deseja acompanhar uma história por semanas, enquanto partidas curtas combinam melhor com intervalos pequenos.</p>
-
-                                <ul>
-                                    <li>Você prefere jogar sozinho, cooperativamente ou competir?</li>
-                                    <li>Procura ação rápida, exploração, narrativa ou estratégia?</li>
-                                    <li>Quanto tempo pretende dedicar a cada partida?</li>
-                                    <li>O jogo funciona no seu computador ou console?</li>
-                                    <li>Ele possui os recursos de acessibilidade de que você precisa?</li>
-                                </ul>
-
-                                <h3>Pesquise antes de comprar</h3>
-                                <p>Vídeos de jogabilidade e demonstrações ajudam a entender o ritmo real. Avaliações podem revelar problemas técnicos, mas representam experiências pessoais e não substituem suas preferências. Tags, filtros e listas de desejos são úteis para comparar alternativas com calma.</p>
-
-                                <p>Quando a escolha envolver crianças e adolescentes, consulte a Classificação Indicativa brasileira e observe os descritores de conteúdo. Eles ajudam a entender por que determinada faixa etária foi atribuída.</p>
-                                <p class="post-source">Fontes consultadas: <a href="https://www.gov.br/secom/pt-br/assuntos/uso-de-telas-por-criancas-e-adolescentes/guia/destaques-do-guia/a-importancia-de-observar-a-classificacao-indicativa">Classificação Indicativa</a> e <a href="https://store.steampowered.com/about/newstore">recursos de descoberta da Steam</a>.</p>
-                            </div>
-                        </details>
-                    </div>
-                </article>
-            </div>
+            <article id="competicoes">
+                <img src="../assets/images/post-esports.jpg" alt="Competição de jogos eletrônicos">
+                <h2>Competições de games atraem novos públicos</h2>
+                <p>Os campeonatos digitais reúnem jogadores, equipes e fãs em diferentes partes do mundo.</p>
+                <p>Organização e trabalho em equipe são importantes durante as partidas.</p>
+            </article>
         </section>
 
-        <section class="genre-section" aria-labelledby="genres-title">
-            <div class="container">
-                <div class="section-heading">
-                    <div>
-                        <p class="eyebrow">Guia rápido</p>
-                        <h2 id="genres-title">Conheça alguns gêneros</h2>
-                    </div>
-                </div>
-
-                <div class="table-wrapper">
-                    <table>
-                        <caption>Comparação entre gêneros de jogos</caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">Gênero</th>
-                                <th scope="col">Característica principal</th>
-                                <th scope="col">Ideal para quem gosta de</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr><th scope="row">Ação</th><td>Desafios rápidos e reflexos</td><td>Ritmo intenso</td></tr>
-                            <tr><th scope="row">Estratégia</th><td>Planejamento e tomada de decisões</td><td>Pensar antes de agir</td></tr>
-                            <tr><th scope="row">RPG</th><td>Evolução de personagens e narrativa</td><td>Explorar histórias</td></tr>
-                            <tr><th scope="row">Simulação</th><td>Representação de atividades e sistemas</td><td>Experimentar possibilidades</td></tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+        <!-- Categorias disponíveis -->
+        <section>
+            <h2>Categorias dos posts</h2>
+            <ul class="categoria-lista">
+                <li>Tecnologia</li>
+                <li>Jogos independentes</li>
+                <li>Competições digitais</li>
+            </ul>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <a class="footer-brand" href="../index.html">GameZone<span class="brand-dot">.</span></a>
-            <nav aria-label="Navegação do rodapé">
-                <ul>
-                    <li><a href="../index.html">Início</a></li>
-                    <li><a href="posts.html">Posts</a></li>
-                    <li><a href="sobre.html#contato">Contato</a></li>
-                </ul>
-            </nav>
-            <p>&copy; 2026 GameZone. Projeto educacional.</p>
-        </div>
+    <footer>
+        <p>Game Zone - 2026</p>
     </footer>
 </body>
 </html>

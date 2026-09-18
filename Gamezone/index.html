@@ -3,129 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GameZone: conteúdo sobre jogos, tecnologia, esports e cultura gamer.">
-    <title>GameZone | Início</title>
-    <link rel="icon" href="assets/images/logo.webp" type="image/webp">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
+    <title>Game Zone - Início</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
-
-    <header class="site-header">
-        <div class="container header-inner">
-            <a class="brand" href="index.html" aria-label="GameZone — página inicial">
-                <img src="assets/images/logo.webp" alt="" width="256" height="256">
-                <span>GameZone<span class="brand-dot">.</span></span>
-            </a>
-
-            <button class="menu-toggle" id="menu-toggle" type="button" aria-controls="main-navigation" aria-expanded="false">
-                <img src="assets/icons/menu.png" alt="" width="640" height="640">
-                <span>Menu</span>
-            </button>
-
-            <nav class="site-navigation" id="main-navigation" aria-label="Navegação principal">
-                <ul>
-                    <li><a class="nav-link active" href="index.html" aria-current="page">Início</a></li>
-                    <li><a class="nav-link" href="pages/posts.html">Posts</a></li>
-                    <li><a class="nav-link" href="pages/sobre.html">Sobre</a></li>
-                </ul>
-            </nav>
-        </div>
+    <!-- Cabeçalho da página inicial -->
+    <header>
+        <h1>Game Zone</h1>
+        <p class="subtitulo">Notícias, reviews e curiosidades sobre o mundo dos games.</p>
     </header>
 
-    <main id="conteudo">
-        <section class="container home-hero" aria-labelledby="hero-title">
-            <p class="eyebrow">Jogos, tecnologia e comunidade</p>
-            <h1 id="hero-title">Seu ponto de encontro com o universo gamer.</h1>
-            <p class="hero-summary">Informação simples e acessível para quem quer conhecer melhor jogos, equipamentos e competições.</p>
-            <a class="text-link" href="pages/posts.html">Explorar os posts <span aria-hidden="true">→</span></a>
+    <!-- Menu principal -->
+    <nav>
+        <a class="pagina-atual" href="index.html">Início</a>
+        <a href="pages/posts.html">Posts</a>
+        <a href="pages/contato.html">Contato</a>
+    </nav>
+
+    <main>
+        <!-- Apresentação do site -->
+        <section>
+            <h2>Bem-vindo ao Game Zone</h2>
+            <p>Este é um blog de exemplo sobre jogos, tecnologia e competições digitais.</p>
+            <p>O projeto foi criado para praticar HTML semântico e CSS básico.</p>
         </section>
 
-        <section class="container section featured-section" aria-labelledby="featured-title">
-            <article class="featured-post">
-                <a class="featured-media" href="pages/posts.html#setup-gamer" aria-label="Ler o post sobre como organizar um espaço confortável para jogar">
-                    <img src="assets/images/hero-gaming.webp" alt="Computador preparado para jogos em um ambiente com iluminação escura" width="1920" height="1080">
-                </a>
-                <div class="featured-content">
-                    <p class="meta">
-                        <span class="category">Tecnologia</span>
-                        <span aria-hidden="true">•</span>
-                        <time datetime="2026-09-15">15 set 2026</time>
-                    </p>
-                    <h2 id="featured-title"><a href="pages/posts.html#setup-gamer">Como organizar um espaço confortável para jogar</a></h2>
-                    <p>Pequenos ajustes na mesa, na tela e na iluminação melhoram a experiência e ajudam a cuidar do corpo durante as partidas.</p>
-                    <a class="text-link" href="pages/posts.html#setup-gamer">Ler o post <span aria-hidden="true">→</span></a>
-                </div>
+        <!-- Resumo dos posts -->
+        <section>
+            <h2>Destaques</h2>
+            <p>Os conteúdos abaixo são exemplos criados para esta atividade.</p>
+
+            <article>
+                <img src="assets/images/post-tecnologia.jpg" alt="Computador usado para jogos">
+                <h2>Tecnologia nos jogos</h2>
+                <p>Conheça algumas mudanças que estão deixando os jogos mais realistas.</p>
+                <a href="pages/posts.html#tecnologia">Ler mais</a>
+            </article>
+
+            <article>
+                <img src="assets/images/post-indies.jpg" alt="Personagem de um jogo independente">
+                <h2>Jogos independentes</h2>
+                <p>Veja como pequenos estúdios estão criando experiências diferentes.</p>
+                <a href="pages/posts.html#independentes">Ler mais</a>
+            </article>
+
+            <article>
+                <img src="assets/images/post-esports.jpg" alt="Competição de jogos eletrônicos">
+                <h2>Competições digitais</h2>
+                <p>Saiba mais sobre os campeonatos e as equipes de esportes eletrônicos.</p>
+                <a href="pages/posts.html#competicoes">Ler mais</a>
             </article>
         </section>
 
-        <section class="container section recent-section" aria-labelledby="recent-title">
-            <div class="section-heading">
-                <h2 id="recent-title">Posts recentes</h2>
-                <a class="text-link" href="pages/posts.html">Ver todos <span aria-hidden="true">→</span></a>
-            </div>
-
-            <ul class="post-list">
-                <li>
-                    <article class="post-list-item">
-                        <div class="post-list-meta">
-                            <p class="meta"><span class="category">Esports</span><span aria-hidden="true">•</span><time datetime="2026-09-12">12 set 2026</time></p>
-                            <span class="reading-time">2 min de leitura</span>
-                        </div>
-                        <h3><a href="pages/posts.html#esports">Entenda como funcionam as competições digitais</a></h3>
-                        <p>Organização, regras e trabalho em equipe fazem parte de cada campeonato.</p>
-                    </article>
-                </li>
-                <li>
-                    <article class="post-list-item">
-                        <div class="post-list-meta">
-                            <p class="meta"><span class="category">Cultura</span><span aria-hidden="true">•</span><time datetime="2026-09-09">09 set 2026</time></p>
-                            <span class="reading-time">2 min de leitura</span>
-                        </div>
-                        <h3><a href="pages/posts.html#jogos-independentes">Jogos independentes e novas ideias</a></h3>
-                        <p>Equipes pequenas encontram maneiras criativas de contar histórias e criar desafios.</p>
-                    </article>
-                </li>
-                <li>
-                    <article class="post-list-item">
-                        <div class="post-list-meta">
-                            <p class="meta"><span class="category">Inclusão</span><span aria-hidden="true">•</span><time datetime="2026-09-05">05 set 2026</time></p>
-                            <span class="reading-time">2 min de leitura</span>
-                        </div>
-                        <h3><a href="pages/posts.html#acessibilidade">Acessibilidade também faz parte dos jogos</a></h3>
-                        <p>Boas opções de configuração permitem que mais pessoas aproveitem uma experiência.</p>
-                    </article>
-                </li>
-                <li>
-                    <article class="post-list-item">
-                        <div class="post-list-meta">
-                            <p class="meta"><span class="category">Tecnologia</span><span aria-hidden="true">•</span><time datetime="2026-09-02">02 set 2026</time></p>
-                            <span class="reading-time">2 min de leitura</span>
-                        </div>
-                        <h3><a href="pages/posts.html#equipamentos">Cuidados simples com os equipamentos</a></h3>
-                        <p>Limpeza e organização ajudam a conservar controles, teclado e computador.</p>
-                    </article>
-                </li>
+        <!-- Categorias do blog -->
+        <section>
+            <h2>Categorias</h2>
+            <ul class="categoria-lista">
+                <li>Notícias</li>
+                <li>Reviews de jogos</li>
+                <li>Tecnologia</li>
+                <li>Competições</li>
             </ul>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <a class="footer-brand" href="index.html">GameZone<span class="brand-dot">.</span></a>
-            <nav aria-label="Navegação do rodapé">
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="pages/posts.html">Posts</a></li>
-                    <li><a href="pages/sobre.html#contato">Contato</a></li>
-                </ul>
-            </nav>
-            <p>&copy; 2026 GameZone. Projeto educacional.</p>
-        </div>
+    <footer>
+        <p>Game Zone - 2026</p>
     </footer>
 </body>
 </html>
