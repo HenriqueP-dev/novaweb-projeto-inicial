@@ -71,6 +71,11 @@ section p {
     margin-bottom: 10px;
 }
 
+.banner {
+    width: 100%;
+    margin-top: 15px;
+}
+
 /* Cards dos posts */
 article {
     padding: 15px;

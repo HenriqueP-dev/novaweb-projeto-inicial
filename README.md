@@ -1,55 +1,70 @@
-# GameZone
+# Game Zone
 
 ## Descrição do projeto
 
-O GameZone é um blog educacional sobre jogos, desenvolvido individualmente por Henrique Pereira para a Situação de Aprendizagem 01 do curso Técnico em Desenvolvimento de Sistemas.
+O Game Zone é um blog educacional sobre jogos, desenvolvido individualmente por Henrique Pereira para a Situação de Aprendizagem 01 do curso Técnico em Desenvolvimento de Sistemas.
 
-O site apresenta conteúdos sobre tecnologia, esports, jogos independentes, acessibilidade e cuidados com equipamentos. A interface foi criada com HTML5, CSS3 e JavaScript, seguindo os wireframes e a identidade visual planejada para o projeto.
+O projeto foi construído com HTML5 e CSS3. Ele apresenta conteúdos sobre tecnologia, jogos independentes, competições digitais, acessibilidade e cuidados com equipamentos.
 
 ## Como acessar
 
 1. Baixe ou clone este repositório.
-2. Abra o arquivo `Gamezone/index.html` em um navegador moderno.
-3. Use o menu principal para navegar entre Início, Posts e Sobre.
+2. Abra o arquivo `Gamezone/index.html` em um navegador.
+3. Utilize o menu para navegar entre as páginas Início, Posts e Contato.
 
-O projeto é estático e não exige instalação de pacotes, servidor ou banco de dados.
+O projeto é estático e não precisa de instalação, servidor ou banco de dados.
 
-## Páginas e funcionalidades
+## Páginas
 
-- **Início:** apresentação editorial, um post em destaque e uma lista compacta de conteúdos recentes.
-- **Posts:** seis artigos expansíveis com subtítulos, listas, fontes consultadas, filtros por categoria e uma tabela comparativa de gêneros.
-- **Sobre e contato:** apresentação do projeto, objetivos, informações do autor e formulário demonstrativo.
-- **Menu responsivo:** navegação adaptada para computadores, tablets e celulares.
-- **Acessibilidade:** HTML semântico, textos alternativos, rótulos de formulário, foco visível, navegação por teclado e link para pular ao conteúdo.
-
-> O formulário valida os campos e exibe uma confirmação local. Nenhum dado é enviado ou armazenado.
+- **Início:** apresentação do blog, imagem principal, destaques e lista de categorias.
+- **Posts:** três publicações sobre jogos e tecnologia.
+- **Contato:** informações de contato e formulário demonstrativo.
 
 ## Requisitos atendidos
 
-| Requisito | Implementação |
-|---|---|
-| Desenvolvimento individual | Projeto identificado com um único autor |
-| Três páginas interligadas | `index.html`, `posts.html` e `sobre.html` |
-| Estrutura organizada | Pastas separadas para páginas, estilos, scripts, imagens, ícones e documentos |
-| HTML5 semântico | Uso de `header`, `nav`, `main`, `section`, `article`, `footer` e outros elementos adequados |
-| CSS externo | Todas as páginas utilizam `Gamezone/css/style.css` |
-| Navegação funcional | Menus principal e de rodapé disponíveis nas três páginas |
-| Imagens, listas e links | Aplicados de acordo com o conteúdo do blog |
-| Tabela | Comparação de gêneros na página de posts |
-| Formulário | Contato demonstrativo com validação HTML e retorno em JavaScript |
-| Código organizado | Arquivos indentados e nomes consistentes |
-| Controle de versão | Histórico mantido com Git e repositório hospedado no GitHub |
+- Três páginas HTML interligadas.
+- Estrutura organizada em pastas.
+- Elementos semânticos do HTML5.
+- Folha de estilos CSS externa.
+- Menu de navegação funcional em todas as páginas.
+- Utilização de imagens com textos alternativos.
+- Utilização de listas e links.
+- Formulário com rótulos e campos obrigatórios.
+- Código organizado e indentado.
+- Wireframes armazenados na pasta `Gamezone/docs`.
+- Controle de versão com Git e GitHub.
 
-## Decisões técnicas
+## Estrutura de arquivos
 
-- A estrutura das páginas parte dos wireframes e adota uma apresentação editorial minimalista, com hierarquia entre destaque, lista e cards.
-- A paleta utiliza grafite profundo (`#101318`), azul-ardósia (`#202A36`) e dourado (`#E0B95A`).
-- Os títulos usam Archivo e os demais textos usam Source Sans 3, com alternativas do sistema.
-- O layout usa Grid e Flexbox para adaptar cards e seções a diferentes larguras de tela.
-- O JavaScript controla o menu móvel, os filtros de categoria e a confirmação do formulário, mantendo o projeto compatível com o conteúdo estudado.
-- Os posts têm conteúdo autoral e atemporal, elaborado a partir de fontes oficiais e editoriais identificadas ao final de cada artigo.
+```text
+novaweb-projeto-inicial/
+├── Gamezone/
+│   ├── assets/
+│   │   └── images/
+│   ├── css/
+│   │   └── estilo.css
+│   ├── docs/
+│   │   ├── Home - Game Zone.png
+│   │   ├── pagina posts - Game Zone.png
+│   │   └── wireframe-sobre-contato.png
+│   ├── pages/
+│   │   ├── contato.html
+│   │   └── posts.html
+│   ├── CREDITOS_ASSETS.md
+│   └── index.html
+└── README.md
+```
+
+## Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- Git e GitHub
+- Visual Studio Code
 
 ## Wireframes
+
+Os wireframes representam o planejamento inicial do projeto e foram preservados como documentação da evolução do site.
 
 ### Página inicial
 
@@ -62,46 +77,6 @@ O projeto é estático e não exige instalação de pacotes, servidor ou banco d
 ### Página sobre e contato
 
 ![Wireframe da página sobre e contato](Gamezone/docs/wireframe-sobre-contato.png)
-
-## Estrutura de arquivos
-
-```text
-novaweb-projeto-inicial/
-├── Gamezone/
-│   ├── assets/
-│   │   ├── icons/
-│   │   └── images/
-│   ├── css/
-│   │   └── style.css
-│   ├── docs/
-│   │   └── wireframes do projeto
-│   ├── js/
-│   │   └── script.js
-│   ├── pages/
-│   │   ├── posts.html
-│   │   └── sobre.html
-│   ├── CREDITOS_ASSETS.md
-│   └── index.html
-├── aula 02/
-├── aula 03/
-├── aula 10 e 13/
-├── exercicio 5/
-├── NOTAS_ESTUDO.md
-└── README.md
-```
-
-## Tecnologias e ferramentas
-
-- HTML5
-- CSS3
-- JavaScript
-- Visual Studio Code
-- Git e GitHub
-- Miro
-
-## Status
-
-Projeto implementado e pronto para revisão final. As três páginas estão interligadas, estilizadas, adaptadas para diferentes tamanhos de tela e preenchidas com conteúdo pesquisado.
 
 ## Autor
 
