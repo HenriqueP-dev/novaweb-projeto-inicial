@@ -1,30 +1,52 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Trabalho: Aula 11 - Tabelas e Dados Tabulados | Aluno: Henrique Pereira dos Santos | Turma: TDE-1BAA-26 | Data: 25/09/2026 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tabela ilustrativa das chaves da Copa do Mundo de 2026.">
+    <meta name="description" content="Chave eliminatória ilustrativa da Copa do Mundo de 2026.">
     <title>Chaves da Copa do Mundo 2026</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <header>
         <h1>Copa do Mundo 2026</h1>
-        <p>Chaveamento ilustrativo — seleções e confrontos fictícios para fins didáticos.</p>
+        <p>Tabela complicada da Copa do Mundo 2026.</p>
         <nav aria-label="Navegação principal">
-            <a href="tabela_simples.html">Tabela simples</a>
-            <a href="tabela_copa2026.html" aria-current="page">Chaves da Copa 2026</a>
+            <ul>
+                <li><a href="tabela_simples.html">simples</a></li>
+                <li><a href="tabela_copa2026.html" aria-current="page">complicada</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <section aria-labelledby="titulo-chave">
-            <h2 id="titulo-chave">Fase eliminatória</h2>
-            <p>Oito confrontos de oitavas de final, com vencedores projetados avançando às quartas. Os resultados são exemplos, não resultados oficiais.</p>
+        <section aria-labelledby="titulo-grupo-a">
+            <h2 id="titulo-grupo-a">Fase de grupos — Grupo A</h2>
+            <p>Veja a classificação do grupo A.</p>
+            <div class="tabela-container tabela-classificacao">
+                <table>
+                    <caption>Grupo A — Classificação</caption>
+                    <thead>
+                        <tr><th scope="col">Rank</th><th scope="col">Equipe</th><th scope="col" title="Pontos">Pts</th><th scope="col" title="Partidas jogadas">PJ</th><th scope="col" title="Vitórias">VIT</th><th scope="col" title="Empates">E</th><th scope="col" title="Derrotas">DER</th><th scope="col" title="Gols marcados">GM</th><th scope="col" title="Gols contra">GC</th><th scope="col" title="Saldo de gols">SG</th><th scope="col">Últimas 5</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th scope="row">1</th><td class="equipe"><img src="fotos/bandeiras/mexico.png" alt="Bandeira do México" width="24" height="16">México</td><td class="pontos">9</td><td>3</td><td>3</td><td>0</td><td>0</td><td>6</td><td>0</td><td>6</td><td class="ultimas"><span class="vitoria">V</span><span class="vitoria">V</span><span class="vitoria">V</span><span class="pendente">–</span><span class="pendente">–</span></td></tr>
+                        <tr><th scope="row">2</th><td class="equipe"><img src="fotos/bandeiras/africa-do-sul.png" alt="Bandeira da África do Sul" width="24" height="16">África do Sul</td><td class="pontos">4</td><td>3</td><td>1</td><td>1</td><td>1</td><td>2</td><td>3</td><td>-1</td><td class="ultimas"><span class="derrota">D</span><span class="empate">E</span><span class="vitoria">V</span><span class="pendente">–</span><span class="pendente">–</span></td></tr>
+                        <tr><th scope="row">3</th><td class="equipe"><img src="fotos/bandeiras/coreia-do-sul.png" alt="Bandeira da Coreia do Sul" width="24" height="16">Coreia do Sul</td><td class="pontos">3</td><td>3</td><td>1</td><td>0</td><td>2</td><td>2</td><td>3</td><td>-1</td><td class="ultimas"><span class="vitoria">V</span><span class="derrota">D</span><span class="derrota">D</span><span class="pendente">–</span><span class="pendente">–</span></td></tr>
+                        <tr><th scope="row">4</th><td class="equipe"><img src="fotos/bandeiras/tchequia.png" alt="Bandeira da Tchéquia" width="24" height="16">Tchéquia</td><td class="pontos">1</td><td>3</td><td>0</td><td>1</td><td>2</td><td>2</td><td>6</td><td>-4</td><td class="ultimas"><span class="derrota">D</span><span class="empate">E</span><span class="derrota">D</span><span class="pendente">–</span><span class="pendente">–</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="legenda-forma"><span class="vitoria">V</span> Vitória <span class="empate">E</span> Empate <span class="derrota">D</span> Derrota <span class="pendente">–</span> Não jogou</p>
+        </section>
+        <section aria-labelledby="titulo-oitavas">
+            <h2 id="titulo-oitavas">Oitavas de final</h2>
+            <p>Veja os jogos das oitavas de final.</p>
             <div class="tabela-container">
                 <table>
-                    <caption>Oitavas de final — chave demonstrativa</caption>
+                    <caption>Confrontos das oitavas de final</caption>
                     <thead>
-                        <tr><th scope="col">Jogo</th><th scope="col">Seleção 1</th><th scope="col">Placar</th><th scope="col">Seleção 2</th><th scope="col">Avança</th></tr>
+                        <tr><th scope="col">Jogo</th><th scope="col">Seleção 1</th><th scope="col">Placar</th><th scope="col">Seleção 2</th><th scope="col">Classificada</th></tr>
                     </thead>
                     <tbody>
                         <tr><th scope="row">O1</th><td>Brasil</td><td>2–1</td><td>Japão</td><td>Brasil</td></tr>
@@ -39,12 +61,12 @@
                 </table>
             </div>
         </section>
-        <section aria-labelledby="titulo-proximas">
-            <h2 id="titulo-proximas">Próximas fases</h2>
+        <section aria-labelledby="titulo-chave">
+            <h2 id="titulo-chave">Caminho até a final</h2>
             <div class="tabela-container">
                 <table>
-                    <caption>Confrontos previstos na chave</caption>
-                    <thead><tr><th scope="col">Fase</th><th scope="col">Confronto</th><th scope="col">Vencedor</th></tr></thead>
+                    <caption>Quartas de final, semifinais e final</caption>
+                    <thead><tr><th scope="col">Fase</th><th scope="col">Confronto</th><th scope="col">Vencedor projetado</th></tr></thead>
                     <tbody>
                         <tr><th scope="row">Quartas</th><td>Brasil × Argentina</td><td>Brasil</td></tr>
                         <tr><th scope="row">Quartas</th><td>França × Inglaterra</td><td>França</td></tr>
@@ -52,15 +74,15 @@
                         <tr><th scope="row">Quartas</th><td>Países Baixos × Colômbia</td><td>Países Baixos</td></tr>
                         <tr><th scope="row">Semifinal</th><td>Brasil × França</td><td>Brasil</td></tr>
                         <tr><th scope="row">Semifinal</th><td>Espanha × Países Baixos</td><td>Espanha</td></tr>
-                        <tr><th scope="row">Final</th><td>Brasil × Espanha</td><td>Brasil (campeão projetado)</td></tr>
+                        <tr><th scope="row">Final</th><td>Brasil × Espanha</td><td>Brasil — campeão projetado</td></tr>
                     </tbody>
                 </table>
             </div>
         </section>
     </main>
     <footer>
-        <p>Atividade de Linguagem de Marcação — Aula 11</p>
-        <p>Henrique Pereira dos Santos — 2026</p>
+        <p>&copy; 2026 — Aula 11: Tabelas e Dados Tabulados</p>
+        <p>Henrique Pereira dos Santos — Turma TDE-1BAA-26</p>
     </footer>
 </body>
 </html>
