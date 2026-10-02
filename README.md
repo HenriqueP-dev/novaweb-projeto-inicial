@@ -2,7 +2,7 @@
 
 ## 📌 Visão Geral do Repositório
 
-Este repositório faz parte do projeto **Nova-Web**, desenvolvido no âmbito do curso Técnico em Desenvolvimento de Sistemas. Ele contempla tanto a primeira aplicação prática (o blog educacional **Game Zone**) quanto a documentação técnica de UI/UX e especificações de interface para o desenvolvimento do módulo de login.
+Este repositório faz parte do projeto **Nova-Web**, desenvolvido no âmbito do curso Técnico em Desenvolvimento de Sistemas. Ele contempla a primeira aplicação prática (o blog educacional **Game Zone**) e a documentação técnica de UI/UX referente às especificações de interface para o módulo de Login, Perfil do Usuário e Tabela de Consulta de Dados.
 
 ---
 
@@ -92,6 +92,30 @@ A interface foi projetada seguindo as diretrizes internacionais de acessibilidad
 3. **Suporte a Leitores de Tela (*Screen Readers*):**
    - Cada campo de entrada possui sua correspondente tag `<label>` devidamente vinculada via atributo `for` / `id`.
    - Mensagens de erro contêm atributos ARIA (`aria-invalid="true"` e `aria-describedby`) para garantir que sejam anunciadas imediatamente por softwares de leitura de tela.
+
+---
+
+## 📊 Especificações de UI/UX — Aula 09: UX de Tabelas de Dados e Telas de Perfil
+
+### 1. Pesquisa Teórica - UX para Tabelas Corporativas
+
+- **Alinhamento de Dados:**
+  - **Textos:** Devem ser alinhados à *esquerda* para garantir uma leitura natural e fluida.
+  - **Números e Valores Monetários:** Devem ser alinhados à *direita* para facilitar a comparação rápida de grandezas numéricas na mesma coluna.
+  - **Status e Ações Rápidas:** Podem ser centralizados para um melhor equilíbrio e alinhamento visual no centro da célula.
+- **Filtros e Busca:**
+  - O campo de pesquisa principal deve ficar posicionado no topo superior esquerdo ou direito acima da tabela para rápido acesso visual.
+  - Filtros avançados devem ser agrupados ou dispostos em menus suspensos (*dropdowns*) para economizar espaço útil de tela.
+- **Hierarquia Visual:**
+  - Utilização de cabeçalhos fixos (*sticky header*) para tabelas extensas, garantindo que o usuário não perca a referência do dado ao rolar a página.
+  - Alternância de cores em linhas (*zebra striping*) ou bordas sutis para facilitar a leitura horizontal de dados complexos.
+
+### 2. Especificação do Protótipo (Figma)
+
+- **Link do Projeto no Figma:** [Cole o link do seu projeto aqui]
+- **Telas Desenvolvidas:**
+  1. *Perfil de Usuário:* Exibição de avatar, dados pessoais, formulário de edição e nível de permissão.
+  2. *Área de Consulta (Tabela):* Lista de usuários/clientes com busca, ordenação, paginação de 5 registros por página e badges de status (Ativo/Pendente/Inativo).
 
 ---
 
