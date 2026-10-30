@@ -27,6 +27,18 @@ NovaWeb-SA02/
 Feito no Figma antes da implementação: https://www.figma.com/design/MZRSpti6V2W8vvmX3fNVGj
 As cores, tipografia, espaçamentos e telas (desktop 1440 px e mobile 390 px) estão registrados em [docs/PROTOTIPO.md](docs/PROTOTIPO.md).
 
+### Verificação do protótipo
+Conferido pela API do Figma (conta do autor): o arquivo contém 6 frames de topo — Login, Perfil e Consulta, cada um em desktop (1440 px) e mobile (390 px). Os frames foram comparados visualmente com as capturas da implementação, o que levou a um ajuste: o fundo da página passou a ser branco, como no Figma. Não foi verificado se o link abre para quem não é o dono do arquivo; para isso é preciso ativar o compartilhamento no Figma.
+
+## Verificações executadas
+Teste automatizado manual (script com Chrome headless, não incluído no repositório), todos aprovados:
+- acesso direto a uma página interna sem login redireciona ao login; após "Sair" também;
+- login: envio vazio, e-mail inválido, senha vazia e credencial errada mostram mensagem e `aria-invalid`; o foco vai ao campo com erro; login correto abre o Perfil;
+- consulta: 6 registros iniciais; a pesquisa ignora maiúsculas, filtra por qualquer coluna, atualiza o contador, mostra mensagem sem resultados e volta a 6 ao limpar;
+- mobile (390 px): sem rolagem horizontal.
+
+Não foram testados: leitor de tela, navegação por teclado completa, contraste por ferramenta e navegadores diferentes do Chrome.
+
 ## Decisões técnicas
 - HTML semântico (`header`, `nav`, `main`, `section`, `table` com `caption` e `th scope`).
 - Formulário com `label` associado a cada campo, mensagens de erro em texto (`aria-invalid`, `aria-describedby`, `aria-live`) e foco no primeiro campo com erro.

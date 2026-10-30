@@ -12,8 +12,8 @@
 | Primária (botão, marca, links ativos) | `#2563EB` |
 | Azul escuro (texto sobre fundo claro azul) | `#1E40AF` |
 | Fundo claro de destaque (link ativo) | `#EFF6FF` |
-| Fundo da página | `#F3F4F6` |
-| Cartões e campos | `#FFFFFF` |
+| Fundo da página, cartões e campos | `#FFFFFF` |
+| Cinza claro (apenas hover do menu no código) | `#F3F4F6` |
 | Texto principal | `#111827` |
 | Texto secundário | `#4B5563` |
 | Placeholder | `#6B7280` |

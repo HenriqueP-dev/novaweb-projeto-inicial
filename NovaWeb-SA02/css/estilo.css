@@ -24,7 +24,7 @@ body {
     font-size: 16px;
     line-height: 1.4;
     color: var(--texto);
-    background-color: var(--fundo);
+    background-color: var(--branco);
 }
 
 a:focus-visible,
