@@ -33,6 +33,15 @@ O **Game Zone** é um blog educacional sobre jogos desenvolvido individualmente 
 
 ---
 
+## 🏢 NovaWeb Studio (Situação de Aprendizagem 02)
+
+Interface demonstrativa com **Login, Perfil e Consulta** (tabela com pesquisa), responsiva e feita a partir de um protótipo no Figma.
+- Projeto: [`NovaWeb-SA02/`](NovaWeb-SA02/) — abra `NovaWeb-SA02/index.html` (login de demonstração: `demo@novaweb.com` / `senha123`).
+- Documentação: [`NovaWeb-SA02/README.md`](NovaWeb-SA02/README.md)
+- Protótipo: https://www.figma.com/design/MZRSpti6V2W8vvmX3fNVGj
+
+---
+
 ## 🎨 Especificações de UI/UX — Tela de Login (Aula 8)
 
 Esta seção documenta o levantamento técnico e as especificações de usabilidade, padrões de interface e acessibilidade para o protótipo da Tela de Login do projeto.
